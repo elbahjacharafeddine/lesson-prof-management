@@ -1,17 +1,19 @@
 const mongoose = require("mongoose");
+
+
 const connectDB = async () => {
-  try {
-    console.log("successfully connected to db");
-    await mongoose.connect("mongodb://localhost:27017/PFA", {
-      useNewUrlParser: true,
+  mongoose.set("useCreateIndex", true);
+  mongoose
+    .connect("mongodb://127.0.0.1:27017/pfa", {
       useUnifiedTopology: true,
-      useCreateIndex: true,
-      useFindAndModify: false, //i9dr tdir chi mochkil
-    });
-  } catch (e) {
-    console.log("erreur dans la connexion avec la base de donnée");
-    process.exit(1); //exit with failure
-  }
+      useNewUrlParser: true,
+    })
+    .then(() => console.log("DB Connected!"))
+    .catch((error) => console.log(`DB Connection Error: ${error.message}`));
 };
+
+
+
+
 
 module.exports = connectDB;

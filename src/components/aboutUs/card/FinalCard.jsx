@@ -17,7 +17,7 @@ export default function FinalCard() {
               justify="space-around"
               alignItems="flex-start"
             >
-              <Grid item xs={11}>
+              {/* <Grid item xs={11}>
                 <Title name="Hajar DAMI" img="/hajar.png" />
               </Grid>
               <Grid item xs={1}>
@@ -28,7 +28,7 @@ export default function FinalCard() {
                   emai="mailto:hajar.dami.14@gmail.com"
                   email="hajar.dami.14@gmail.com"
                 />
-              </Grid>
+              </Grid> */}
             </Grid>
           </CardContainer>
           <GlobalStyle />
@@ -42,7 +42,7 @@ export default function FinalCard() {
               alignItems="flex-start"
             >
               {" "}
-              <Grid item xs={11}>
+              {/* <Grid item xs={11}>
                 <Title name="Obaydah Bouifadene" img="/Obaydah.png" />
               </Grid>
               <Grid item xs={1}>
@@ -53,7 +53,7 @@ export default function FinalCard() {
                   emai="mailto:oubayda56@gmail.com "
                   email="OUBAYDA56@gmail.com "
                 />
-              </Grid>{" "}
+              </Grid>{" "} */}
             </Grid>{" "}
           </CardContainer>
           <GlobalStyle />

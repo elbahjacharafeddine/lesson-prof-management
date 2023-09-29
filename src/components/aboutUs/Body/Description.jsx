@@ -27,7 +27,7 @@ function Description(props) {
         paddingRight: "100px",
       }}
       >
-       Qui somme nous ?
+       {/* Qui somme nous ? */}
       </p>
     </div>
   );

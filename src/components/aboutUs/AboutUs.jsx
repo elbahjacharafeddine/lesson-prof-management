@@ -77,9 +77,9 @@ function Body(props) {
                             <Description />
                           </li>
 
-                          <li className={style.li}>
+                          {/* <li className={style.li}>
                             <Description2 />
-                          </li>
+                          </li> */}
                         </ol>
                       </Paper>
                     </Grid>

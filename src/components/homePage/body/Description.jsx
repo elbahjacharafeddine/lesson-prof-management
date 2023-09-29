@@ -27,7 +27,7 @@ function Description(props) {
           fontWeight: 550,
         }}
       >
-        Pour tous les Ensiastes.
+        Pour tous les Ensajistes.
       </p>
     </div>
   );

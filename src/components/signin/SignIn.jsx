@@ -240,7 +240,7 @@ export default function SignUp() {
           </Box>
           <Box mt={5}>
             <Link href="/">
-              <Copyright title="Gestion de Cours - ENSIAS" color="black" />
+              <Copyright title="Gestion de Cours - ENSAJ" color="black" />
             </Link>
           </Box>
         </div>

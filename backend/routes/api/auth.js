@@ -117,7 +117,7 @@ router.post(
         };
         jwt.sign(
           payload,
-          process.env.JWT_SECRET,
+          "JWT_SECRET",
           { expiresIn: 50400 },
           (err, token) => {
             if (err) throw err;
@@ -136,7 +136,7 @@ router.post(
         };
         jwt.sign(
           payload,
-          process.env.JWT_SECRET,
+          "JWT_SECRET",
           { expiresIn: 50400 },
           (err, token) => {
             if (err) throw err;

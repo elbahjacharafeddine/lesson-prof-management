@@ -20,7 +20,7 @@ function Foote(props) {
   return (
     <div className={style.root}>
       <Link href="/">
-        <Copyright title="Gestion de Cours - ENSIAS" color="black" />
+        <Copyright title="Gestion de Cours - ENSAJ" color="black" />
       </Link>
     </div>
   );
