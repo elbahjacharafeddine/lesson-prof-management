@@ -8,7 +8,7 @@ module.exports = (req, res, next) => {
   }
   //verify
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const decoded = jwt.verify(token, "JWT_SECRET");
     console.log("req body : ", decoded);
 
     req.student = decoded.student;

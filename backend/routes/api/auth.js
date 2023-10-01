@@ -39,6 +39,7 @@ router.get("/", auth, async (req, res) => {
     res.status(500).send("erreur de serveur");
   }
 });
+
 router.post(
   "/",
   check("email", "email non valide")
